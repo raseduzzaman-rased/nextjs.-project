@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Providers from "./Providers";
 
 
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Providers>
           <Navbar />
+
           <main>{children}</main>
           <Footer />
         </Providers>
