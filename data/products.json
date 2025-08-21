@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Mobile Charger",
+    "description": "High-speed mobile charger suitable for all smartphones and tablets. Compact and lightweight design makes it easy to carry. Ensures safe and stable charging anytime, anywhere.",
+    "details": "This mobile charger supports fast charging for all brands of smartphones and tablets. It comes with a durable cable and compact design ideal for travel. Built-in safety features prevent overcharging, overheating, and short circuits. Compatible with USB-C and standard ports. Lightweight and easy to pack in a bag or pocket. Perfect for daily use, office, or travel. Provides fast and reliable charging anytime. Sleek modern design adds style to your gadgets.",
+    "price": 19.99,
+    "image": "/images/products/mobilecharger.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Webcam",
+    "description": "HD webcam perfect for video calls, online classes, and streaming. Built-in microphone reduces background noise. Easy plug-and-play setup with most devices.",
+    "details": "This HD webcam delivers sharp video quality with clear audio for professional meetings and streaming. Built-in microphone minimizes background noise. USB plug-and-play works with Windows, Mac, and Linux. Adjustable clip fits laptops and monitors. Lightweight and portable for easy setup. Perfect for live streaming, recording, or virtual meetings. Smooth 1080p video with vibrant colors. Compact stylish design for modern workspaces.",
+    "price": 49.99,
+    "image": "/images/products/webcam.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Keyboard",
+    "description": "Mechanical keyboard with ergonomic layout and backlighting. Ideal for typing and gaming. Durable keys provide accurate feedback every time.",
+    "details": "Experience precise keystrokes with this mechanical keyboard designed for both gaming and office work. Features customizable RGB backlighting for aesthetics. Ergonomic layout reduces strain during long typing sessions. Anti-ghosting ensures accurate input during fast key presses. Durable switches with long lifespan. Plug-and-play USB connectivity. Stylish sleek design complements any desk. Provides tactile feedback for comfortable typing. Sturdy build ensures reliability and longevity.",
+    "price": 79.99,
+    "image": "/images/products/keyboard.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Mouse",
+    "description": "Wireless mouse with ergonomic design for smooth navigation. Adjustable DPI for precision. Long-lasting battery ensures uninterrupted use.",
+    "details": "This wireless mouse provides precise tracking and comfortable handling for all-day use. Adjustable DPI allows customization for work or gaming. Long-lasting battery ensures uninterrupted productivity. Ergonomic design reduces hand fatigue. Compatible with laptops and desktops. Plug-and-play USB receiver included. Sleek and lightweight for portability. Works on various surfaces including wood, plastic, and metal. Perfect for office, home, or gaming. Smooth scroll wheel and responsive buttons enhance user experience.",
+    "price": 29.99,
+    "image": "/images/products/mouse.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Powerbank",
+    "description": "Portable powerbank with fast charging support. High capacity for multiple devices. Compact design for easy portability.",
+    "details": "Keep your devices charged on the go with this high-capacity powerbank. Supports fast charging for smartphones, tablets, and other USB devices. Multiple USB outputs allow charging several devices simultaneously. Lightweight and compact for easy portability. Built-in safety mechanisms prevent overcharging, overheating, and short circuits. Ideal for travel, outdoor activities, and emergencies. Sleek design with LED indicator to monitor battery status. Reliable power supply ensures your gadgets never run out of charge. Compatible with most modern devices. Perfect companion for daily commute and trips.",
+    "price": 39.99,
+    "image": "/images/products/powerbank.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Microphone",
+    "description": "Professional microphone for recording, podcasting, and streaming. Clear sound quality. Easy setup with computers and audio interfaces.",
+    "details": "This professional microphone delivers crystal clear audio for recording, podcasting, and live streaming. Features noise reduction for clear sound even in noisy environments. Compatible with computers, mixers, and audio interfaces. Adjustable stand included for flexible positioning. Plug-and-play setup ensures hassle-free use. Compact and portable design for travel or home studio. Perfect for voiceovers, gaming, and online content creation. Durable build for long-term use. Enhances audio clarity for professional results. Ideal for both beginners and advanced users.",
+    "price": 59.99,
+    "image": "/images/products/microphone.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Headphone",
+    "description": "Noise-cancelling headphone with immersive sound. Comfortable ear cushions. Wireless connectivity with long battery life.",
+    "details": "Enjoy high-fidelity audio with these noise-cancelling headphones. Soft ear cushions ensure comfort for long listening sessions. Wireless Bluetooth connectivity for convenience. Long-lasting battery supports extended use without frequent charging. Ideal for travel, work, or leisure. Provides deep bass and clear treble for rich sound quality. Foldable design for portability. Integrated microphone for calls and virtual meetings. Easy-to-use controls for volume and playback. Sleek and modern design suitable for all users.",
+    "price": 99.99,
+    "image": "/images/products/headphone.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Airpod TWS",
+    "description": "True wireless earbuds with long battery life. Compact charging case. Clear and crisp sound quality.",
+    "details": "These true wireless earbuds provide superior sound and long battery life. Compact charging case allows easy storage and charging on the go. Ergonomic fit ensures comfort during extended wear. Touch controls for music, calls, and voice assistants. Bluetooth connectivity for seamless pairing with devices. Ideal for workouts, travel, and daily use. Lightweight and stylish design. Supports fast charging and provides hours of listening time. Delivers crisp audio with balanced bass and treble. Compatible with all Bluetooth-enabled smartphones and tablets.",
+    "price": 79.99,
+    "image": "/images/products/airpodtws.jpg"
+  },
+  {
+  "id": 9,
+  "name": "Smartwatch",
+  "description": "Stylish smartwatch with fitness tracking and notifications. Waterproof design. Long battery life for everyday use.",
+  "details": "This smartwatch tracks your fitness activities including steps, heart rate, and calories burned. Receives notifications for calls, messages, and apps directly on your wrist. Compatible with iOS and Android devices. Waterproof for swimming and daily activities. Customizable watch faces and straps for personal style. Long-lasting battery supports multiple days on a single charge. Lightweight and comfortable for all-day wear. Includes sleep tracking and health monitoring features. Perfect companion for fitness enthusiasts and tech lovers.",
+  "price": 129.99,
+  "image": "/images/products/smartwatch.jpg"
+}
+]
