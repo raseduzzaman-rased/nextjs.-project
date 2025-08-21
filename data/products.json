@@ -64,11 +64,27 @@
     "image": "/images/products/airpodtws.jpg"
   },
   {
-  "id": 9,
-  "name": "Smartwatch",
-  "description": "Stylish smartwatch with fitness tracking and notifications. Waterproof design. Long battery life for everyday use.",
-  "details": "This smartwatch tracks your fitness activities including steps, heart rate, and calories burned. Receives notifications for calls, messages, and apps directly on your wrist. Compatible with iOS and Android devices. Waterproof for swimming and daily activities. Customizable watch faces and straps for personal style. Long-lasting battery supports multiple days on a single charge. Lightweight and comfortable for all-day wear. Includes sleep tracking and health monitoring features. Perfect companion for fitness enthusiasts and tech lovers.",
-  "price": 129.99,
-  "image": "/images/products/smartwatch.jpg"
-}
+    "id": 9,
+    "name": "Smartwatch",
+    "description": "Stylish smartwatch with fitness tracking and notifications. Waterproof design. Long battery life for everyday use.",
+    "details": "This smartwatch tracks your fitness activities including steps, heart rate, and calories burned. Receives notifications for calls, messages, and apps directly on your wrist. Compatible with iOS and Android devices. Waterproof for swimming and daily activities. Customizable watch faces and straps for personal style. Long-lasting battery supports multiple days on a single charge. Lightweight and comfortable for all-day wear. Includes sleep tracking and health monitoring features. Perfect companion for fitness enthusiasts and tech lovers.",
+    "price": 129.99,
+    "image": "/images/products/smartwatch.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Quintessa Buck",
+    "description": "Sunt molestiae ad si",
+    "price": "392",
+    "image": "Hic sint dolore offi",
+    "details": "Ipsam omnis ipsa nu"
+  },
+  {
+    "id": 11,
+    "name": "Emery Pacheco",
+    "description": "Ad repudiandae ex sa",
+    "price": "685",
+    "image": "Unde rerum laboriosa",
+    "details": "Laboriosam animi n"
+  }
 ]
