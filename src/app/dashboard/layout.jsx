@@ -19,7 +19,7 @@ export default function DashboardLayout({ children }) {
       <aside className="w-64 bg-gray-200 p-6">
         <h2 className="text-xl font-bold mb-6">Dashboard</h2>
         <nav className="space-y-4">
-          <Link href="/dashboard/add-product" className="block hover:text-teal-600">
+          <Link href="/dashboard/add-product" className="block  hover:text-teal-600">
             ➕ Add Product
           </Link>
         </nav>
