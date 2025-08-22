@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { Toaster, toast } from "react-hot-toast";
-import LoadingSpinner from "../components/LoadingSpinner";
+import LoadingSpinner from "@/app/components/LoadingSpinner";
+
 
 
 export default function AddProductPage() {
@@ -23,7 +24,7 @@ export default function AddProductPage() {
     if (status === "unauthenticated") router.push("/login");
   }, [status, router]);
 
-  if (status === "loading") return <LoadingSpinner/>;
+  if (status === "loading") return <LoadingSpinner></LoadingSpinner>;
   if (!session) return null;
 
   const handleChange = (e) => {
