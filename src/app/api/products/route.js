@@ -1,22 +1,43 @@
-import fs from "fs";
-import path from "path";
+import { MongoClient } from "mongodb";
+
+const client = new MongoClient(process.env.MONGODB_URI);
 
 export async function POST(req) {
-  const body = await req.json();
+  try {
+    const body = await req.json();
+    await client.connect();
+    const db = client.db("nextjs_project"); // আপনার database
+    const collection = db.collection("products");
 
-  const filePath = path.join(process.cwd(), "data", "products.json");
-  const products = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const result = await collection.insertOne({
+      ...body,
+      createdAt: new Date(),
+    });
 
-  const newProduct = {
-    id: products.length + 1,
-    ...body,
-  };
+    return new Response(JSON.stringify({ message: "Product added!", id: result.insertedId }), {
+      status: 200,
+    });
+  } catch (err) {
+    console.error(err);
+    return new Response(JSON.stringify({ message: "Internal Server Error" }), { status: 500 });
+  } finally {
+    await client.close();
+  }
+}
 
-  products.push(newProduct);
+export async function GET() {
+  try {
+    await client.connect();
+    const db = client.db("nextjs_project");
+    const collection = db.collection("products");
 
-  fs.writeFileSync(filePath, JSON.stringify(products, null, 2));
+    const products = await collection.find({}).toArray();
 
-  return new Response(JSON.stringify({ message: "Product added!" }), {
-    status: 200,
-  });
+    return new Response(JSON.stringify(products), { status: 200 });
+  } catch (err) {
+    console.error(err);
+    return new Response(JSON.stringify({ message: "Internal Server Error" }), { status: 500 });
+  } finally {
+    await client.close();
+  }
 }
